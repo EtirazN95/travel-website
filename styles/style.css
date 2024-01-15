@@ -19,67 +19,92 @@ body {
     margin: 0 auto;
     background: #FFF;
 }
+
 /* navbar style */
-.nav-container{
+.nav-container {
     /* border: 2px solid blue; */
     min-height: 20px;
     display: flex;
-   align-items: center;
-   border: 5px solid #FFF;
-   width: 50%;
+    align-items: center;
+    border: 5px solid #FFF;
+    width: 50%;
 }
-.nav-container img{
+
+.nav-container img {
     width: 90px;
     padding-right: 10px;
     object-fit: cover;
 }
-.nav-container p{
+
+.nav-container p {
     font-size: 36px;
     font-weight: 800;
     color: #131318;
 }
-.special{
+
+.special {
     color: #FF5400;
     font-weight: 700;
 }
-.header-section{
-    max-width: 1440px;
-    margin: 0 auto;
+
+.header-section {
+    /* max-width: 1440px;
+    margin: 0 auto; */
     display: flex;
+    padding-bottom: 30px;
 }
-.items-container{
+
+.items-container {
     width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.items-container a{
+
+.items-container a {
     text-decoration: none;
     color: #424247;
     font-size: 18px;
     font-weight: 400;
 }
 
+/* banner section style */
+.banner-section {
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../images/banner.png);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-
-/* small devices mobile phone */
-
-@media screen and (max-width: 600px) {
-    .header-section{
-        flex-direction: column;
-        margin-left: 50px;
-        justify-content: center;
-    }
-    .items-container{
-        flex-direction: column;
-    }
+.banner-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+    gap: 24px;
+    
+    
+}
+.banner-text h2 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
     
 }
 
-
-
-
-/* Large devices Laptop desktop */
-@media screen and (min-width: 992px) and (max-width: 1440px) {
-    
+.banner-text p{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 247px;
+    padding-right: 247px;
+    /* position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
 }

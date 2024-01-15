@@ -1,0 +1,25 @@
+
+
+/* small devices mobile phone */
+
+@media screen and (max-width: 600px) {
+    .header-section{
+        flex-direction: column;
+        margin-left: 50px;
+        justify-content: center;
+    }
+    .items-container{
+        flex-direction: column;
+        margin: 50px;
+        gap: 20px;
+    }
+    
+}
+
+
+
+
+/* Large devices Laptop desktop */
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+    
+}

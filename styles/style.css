@@ -79,24 +79,25 @@ body {
     background-size: cover;
 }
 
-.banner-text{
+.banner-text {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding-top: 100px;
     gap: 24px;
-    
-    
+
+
 }
+
 .banner-text h2 {
     color: #FFF;
     font-size: 64px;
     font-weight: 800;
-    
+
 }
 
-.banner-text p{
+.banner-text p {
     color: #FFF;
     font-size: 16px;
     font-weight: 400;
@@ -107,4 +108,64 @@ body {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%); */
+}
+
+.banner-input-form {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 768px;
+    margin-left: 300px;
+    margin-top: 48px;
+}
+
+.banner-input-form input {
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+#When{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+#Select{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-primary{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
 }

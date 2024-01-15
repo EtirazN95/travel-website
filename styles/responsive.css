@@ -1,42 +1,72 @@
-
-
 /* small devices mobile phone */
 
 @media screen and (max-width: 600px) {
-    .header-section{
+    .header-section {
         flex-direction: column;
         margin-left: 50px;
         justify-content: center;
     }
-    .items-container{
+
+    .items-container {
         flex-direction: column;
         margin: 50px;
         gap: 20px;
     }
-.banner-text{
-    flex-direction: column;
-    padding-top: 32px;
 
-}
+    .banner-text {
+        flex-direction: column;
+        padding-top: 32px;
+        margin-bottom: 20px;
 
-.banner-text p{
-    text-align: center;
-     padding: 0 ;
-     font-size: 14px;
-     line-height: 21px;
-}
-.banner-text h2{
-    text-align: center;
-    font-size: 22px;
-}
+    }
 
-    
+    .banner-text p {
+        text-align: center;
+        padding: 0;
+        font-size: 14px;
+        line-height: 21px;
+
+    }
+
+    .banner-text h2 {
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .banner-input-form {
+        display: flex;
+        width: 287px;
+        padding: 16px;
+        flex-direction: column;
+        /* align-items: center; */
+        gap: 16px;
+        margin-left: 100px;
+        margin-top: 0;
+    }
+
+    .banner-input-form input {
+        width: 255px;
+        height: 52px;
+    }
+    #When{
+        width: 255px;
+        height: 52px; 
+    }
+    #Select{
+        width: 255px;
+        height: 52px;  
+    }
+
+    .btn-primary {
+        width: 255px;
+        height: 52px;
+    }
+
+
 }
 
 
 
 
 /* Large devices Laptop desktop */
-@media screen and (min-width: 992px) and (max-width: 1440px) {
-    
-}
+@media screen and (min-width: 992px) and (max-width: 1440px) {}
